@@ -1,0 +1,15 @@
+.author:hover{
+    text-decoration: underline;
+    font-weight: 700 ; 
+}
+
+.ant-tooltip {
+  position: absolute;
+  left: 0;
+  .ant-tooltip-arrow{
+    margin-left: 15px;
+  }
+  .ant-tooltip-content{
+    margin-left: 15px;
+  }
+}

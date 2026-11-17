@@ -1,0 +1,137 @@
+.report-article {
+  .page-content {
+    padding-top: 0 !important;
+    margin-top: 20px;
+
+    .title-report-article {
+      display: flex;
+      align-items: center;
+      height: 30px;
+      justify-content: space-between;
+      margin-bottom: 30px;
+
+      .title {
+        margin-top: 10px;
+        color: #ca8a04;
+        font-size: 20px;
+        font-weight: 510;
+      }
+
+      .dash {
+        width: 83%;
+        height: 1px;
+        background-color: #d9d9d9;
+      }
+    }
+  }
+}
+.export-exel {
+  background-color: #dbeafe;
+  height: 40px;
+  width: 100%;
+  position: relative;
+
+  .button-export-exel {
+    cursor: pointer;
+
+    &:hover {
+      color: #3577f1;
+    }
+  }
+
+  .button-export-exel {
+    position: absolute;
+    right: 13px;
+    top: 10px;
+    color: black;
+    font-size: 15px;
+  }
+}
+.display-line {
+  .ant-select-selector {
+    .ant-select-selection-item {
+      font-weight: 500;
+      font-family: var(--vz-body-font-family);
+    }
+  }
+}
+
+.ant-pagination-item-active {
+  background-color: #3577f1 !important;
+  color: #dbeafe;
+}
+
+.ant-pagination-item {
+  border: 1px solid #d5d5d5 !important;
+  font-weight: 600 !important;
+}
+.ant-pagination-prev {
+  color: #7e8cac !important;
+  border: 1px solid #d5d5d5 !important;
+}
+
+.ant-pagination-next {
+  border: 1px solid #d5d5d5 !important;
+}
+
+.sort-hover {
+  &:hover {
+    color: #3577f1 !important;
+    cursor: pointer;
+  }
+}
+.date-from {
+  .ant-picker-dropdown {
+    position: absolute;
+    top: 270px;
+    right: 200px;
+    z-index: 40000;
+    display: none;
+  }
+}
+.date-to {
+  .ant-picker-dropdown {
+    position: absolute;
+    top: 270px;
+    right: 200px;
+  }
+}
+
+.ant-picker-dropdown-range{
+    margin-top: 480px;
+    margin-left: 20px;
+}
+
+// .Toastify__toast-container {
+//     display: none;
+//     opacity: 0;
+// }
+
+// .custom-date{
+//     .custom-date-bottom{
+//         display: none;
+//         position: absolute;
+//         z-index: 20;
+//         top: 20px;
+//         overflow: visible;
+//         opacity: 0;
+//     }
+//     &:hover{
+//         .custom-date-bottom{
+//             opacity: 1;
+//             display: unset;
+//         }
+//     }
+// }
+// .ant-divider{
+// display: none;
+// }
+// .custom-date-report{
+//     height: 200px;
+//     width: 200px;
+//     background-color: #3577F1;
+//     position: absolute;
+//     // top: 270px;
+//     // right: 150px;
+// }
+

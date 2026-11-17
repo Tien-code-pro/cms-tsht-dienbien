@@ -1,0 +1,230 @@
+/* @config "/tailwindcss-config.js";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.ctscroll::-webkit-scrollbar {
+  display: none;
+} */
+.flex {
+  display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.mt-\[24px\] {
+  margin-top: 24px;
+}
+
+.w-\[32px\] {
+  width: 32px;
+}
+
+.h-\[28px\] {
+  height: 28px;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}
+
+.ml-\[-12px\] {
+  margin-left: -12px;
+}
+
+.mt-\[-2px\] {
+  margin-top: -2px;
+}
+
+.min-h-\[278px\] {
+  min-height: 278px;
+}
+
+.hidden {
+  display: none;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.transition-\[5s\_opacity\] {
+  transition: opacity 5s;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.\[border\:1px\_solid\_\#ccc\] {
+  border: 1px solid #ccc;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.\[border-bottom\:1px\_solid\_\#ccc\] {
+  border-bottom: 1px solid #ccc;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.text-red-600 {
+  color: #dc2626;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.\!overflow-y-auto {
+  overflow-y: auto !important;
+}
+
+.h-\[205px\] {
+  height: 205px;
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 1rem;
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  margin-left: 0.5rem;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.rounded-\[50\%\] {
+  border-radius: 50%;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
+.text-blue-700 {
+  color: #1d4ed8;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.min-h-\[41px\] {
+  min-height: 41px;
+}
+
+.relative {
+  position: relative;
+}
+
+.w-\[calc\(100\%\_-\_56px\)\] {
+  width: calc(100% - 56px);
+}
+
+.outline-none {
+  outline: none;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.min-h-8 {
+  min-height: 2rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.ctscroll {
+  overflow-y: scroll;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.text-\[\#3532ba\] {
+  color: #3532ba;
+}
+.mx-2 {
+  margin-left: 8px;
+  margin-right: 8px;
+}

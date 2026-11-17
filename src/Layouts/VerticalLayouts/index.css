@@ -1,0 +1,103 @@
+.sidebar_spin .ant-spin-dot-item {
+  background-color: white;
+}
+.tox-promotion {
+  display: none;
+  opacity: 0;
+}
+.double-button {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 96%;
+}
+.button-save-emagazine {
+  height: 33px;
+  position: "fbfbfb";
+  background-color: "#34c38f";
+  margin-top: 10px;
+  border-color: aliceblue;
+}
+.button-save-emagazine:hover {
+  font-weight: 510;
+  color: rgb(255, 255, 255) !important;
+  background-color: #263d88 !important;
+}
+.btn-add-emagazine {
+  height: 33px;
+}
+.btn-add-emagazine:hover {
+  font-weight: 510;
+  color: rgb(255, 255, 255) !important;
+  background-color: #00a08a !important;
+}
+.delete-all-block {
+  font-weight: 510;
+  background-color: #f06548;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+.delete-all-block:hover {
+  font-weight: 510;
+  color: rgb(255, 255, 255) !important;
+  background-color: #e53b19 !important;
+}
+.preview-mobile-web {
+  font-weight: 510 !important;
+  background-color: #299cdb;
+  color: rgb(255, 255, 255) !important;
+  margin-top: 10px;
+}
+.preview-mobile-web:hover {
+  font-weight: 510;
+  background-color: #299cdb !important;
+  color: rgb(255, 255, 255) !important;
+}
+.flex-block {
+  display: flex;
+}
+.number-block-move {
+  position: absolute;
+  top: 4px;
+  left: 32px;
+}
+.move-block {
+  font-weight: 510 !important;
+  background-color: rgb(224, 216, 216);
+  width: 100%;
+  color: rgb(60, 56, 56) !important;
+}
+.move-block-2 {
+  font-weight: 510;
+  background-color: #f7b84b !important;
+  color: rgb(255, 255, 255) !important;
+  width: 100%;
+}
+.display_block {
+  opacity: 100;
+}
+.hide-block {
+  opacity: 0;
+  display: none;
+}
+.ant-pagination-total-text {
+  margin-right: 500px !important;
+  position: absolute;
+  left: 0;
+  color: #242525;
+}
+.content-block-emagazine{
+position: relative;
+}
+.content-block-emagazine:hover .name-block-emagazine{
+  opacity: 100%;
+}
+.name-block-emagazine{
+  position: absolute;
+  top: 0;
+  left: 0px;
+  opacity: 0%;
+  background-color: red;
+  color: white;
+
+}
